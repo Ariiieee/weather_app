@@ -6,15 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Ultra&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/css/weather.css" />
     <title>weather app</title>
   </head>
   <body>
-    <h1>The weather</h1>
-  <script src="/src/js/index.js"></script>
+    <div class="container-wrapper">
+      <div class="weather_app_container">
+        <div class="weather_details">
+          <!-- weather details -->
+          <div class="weather-desc"> 
+            <div class="degree">
+              08 
+              <div class="deg-group">
+                  <span class="celsius deg">&#176;C  </span>
+                  <span class="Fah deg">&#176;|F</span>
+              </div>
+            </div>
+            <div class="city-date">
+              <p class="city">London</p>
+              <div class="date">sunday 2019</div>
+            </div>
+            <div class="weather-icon">
+                <p class="icon">🌞</p>
+                <p class="icon-desc">rainy</p>
+            </div>
+          </div>
+          <!-- weather search details -->
+          <div class="weather-details">
+           
+            <div class="weather-search_city">
+              <form class="weather-form">
+                <input type="text" placeholder="search city here" />
+                <button>search</button>
+              
+              </form>
+            </div>
+            <div class="weather-search-details">
+                <hr />
+                <h3 class="details-heading">Weather Details</h3>
+              <div class="weather-stats-details">
+                <p class="weather-status">Cloudy</p>
+                <p class="weather-status-data">88%</p>
+              </div>
+              <div class="weather-stats-details">
+                <p class="weather-status">Humidity</p>
+                <p class="weather-status-data">88%</p>
+              </div>
+              <div class="weather-stats-details">
+                <p class="weather-status">wind</p>
+                <p class="weather-status-data">88%</p>
+              </div>
+              <div class="weather-stats-details">
+                <p class="weather-status">rain</p>
+                <p class="weather-status-data">88%</p>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="creator">
+        source code at:
+        <a href="https://github.com/Ariiieee/weather_app"> github link</a>
+      </div> -->
+    </div>
+
+    <script src="/src/js/index.js"></script>
   </body>
 </html>

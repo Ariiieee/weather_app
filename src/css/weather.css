@@ -1,10 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Questrial', sans-serif;
-
+  font-family: "Questrial", sans-serif;
 }
+
+.container-wrapper {
+  max-width: 960px;
+  margin: 200px auto;
+}
+
+.weather_app_container {
+  padding: 32px 12px;
+  border: 4px solid #9e9ea7;
+  border-radius: 9px;
+  margin-bottom: 12px;
+}
+
+.weather_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+.weather-desc {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.weather-icon {
+    font-size: 24px;
+    color: #9e9ea7;
+    font-style: italics;
+    margin-left: 24px;
+}
+
+.icon-desc {
+    font-size: 16px;
+}
+
+.degree {
+  position: relative;
+
+  font-family: "Ultra", serif;
+  font-size: 68px;
+  font-weight: 400;
+  color: #9e9ea7;
+}
+
+.deg-group {
+  display: flex;
+  position: absolute;
+  top: 16px;
+  left: 100%;
+  padding-left: 8px;
+}
+
+.deg {
+  font-size: 14px;
+}
+
+.city-date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
+
+.city {
+  font-family: "Ultra", serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #9e9ea7;
+}
+
+
+
+.weather-details {
+ 
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: #9e9ea7;
+}
+
+.weather-form {
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #03a0ff;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #03a0ff;
+}
+
+
+
+button {
+    padding: 4px 14px;
+    font-size: 12px;
+    outline: none;
+    color: white;
+    background: #03a0ff;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #03a0ff;
+    background: white;
+    border: 1px solid #03a0ff;
+}
+
+.details-heading {   
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.weather-search-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.weather-stats-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
