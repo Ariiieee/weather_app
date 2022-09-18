@@ -6,6 +6,7 @@
 
 body {
   font-family: "Questrial", sans-serif;
+  background-color: #f8f8ff;
 }
 
 .container-wrapper {
@@ -23,7 +24,7 @@ body {
 .weather_details {
   display: flex;
   justify-content: space-between;
-  padding: 0px 24px;
+  padding: 0px 48px;
 }
 
 .weather-desc {
@@ -31,58 +32,101 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 18px;
-}
-
-.weather-icon {
-    font-size: 24px;
-    color: #9e9ea7;
-    font-style: italics;
-    margin-left: 24px;
+  gap: 20px;
 }
 
 .icon-desc {
     font-size: 16px;
 }
 
-.degree {
+.temperature-details {
   position: relative;
-
   font-family: "Ultra", serif;
-  font-size: 68px;
+  font-size: 52px;
   font-weight: 400;
   color: #9e9ea7;
+}
+
+.temperature-degree {
+  padding: 0 10px;
 }
 
 .deg-group {
   display: flex;
   position: absolute;
-  top: 16px;
+  top: 8px;
   left: 100%;
-  padding-left: 8px;
 }
 
 .deg {
-  font-size: 14px;
+  font-size: 12px;
 }
+
+.ver-line {
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.celsius  {
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.fah {
+  cursor: pointer;
+  color: #03a0ff;
+}
+
 
 .city-date {
   display: flex;
   flex-direction: column;
   margin-left: 48px;
+  font-size: 16px;
+  color: #9e9ea7;
+  font-weight: 500;
 }
 
 .city {
   font-family: "Ultra", serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
+  color: #03a0ff;
+}
+
+.date {
+  display: flex;
+  gap: 4px;
+}
+
+.hr-min {
+  display: flex;
+}
+
+.date-month-year {
+  display: flex;
+  column-gap: 8px;
+}
+
+.weather-icon {
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
   color: #9e9ea7;
+  font-style: italics;
+  padding: 16px 16px;
 }
 
 
 
+.icon-desc {
+  color: #03a0ff;
+  font-size: 14px;
+}
+
 .weather-details {
- 
     padding: 14px;
     display: flex;
     flex-direction: column;
@@ -129,7 +173,7 @@ button:hover {
 .details-heading {   
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin: 26px 0 16px 0;
 }
 
 .weather-search-details {
@@ -143,6 +187,10 @@ button:hover {
     justify-content: space-between;
     font-size: 16px;
     font-weight: 500;
+}
+
+.weather-status-data {
+  color: #03a0ff;
 }
 
 
