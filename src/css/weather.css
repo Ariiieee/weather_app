@@ -6,7 +6,7 @@
 
 body {
   font-family: "Questrial", sans-serif;
-  background-color: #f8f8ff;
+  background-color: #fffdff;
 }
 
 .container-wrapper {
@@ -36,7 +36,7 @@ body {
 }
 
 .icon-desc {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .temperature-details {
@@ -63,20 +63,19 @@ body {
 }
 
 .ver-line {
-    font-size: 12px;
-    padding-right: 5px;
+  font-size: 12px;
+  padding-right: 5px;
 }
 
-.celsius  {
-    padding-right: 5px;
-    cursor: pointer;
+.celsius {
+  padding-right: 5px;
+  cursor: pointer;
 }
 
 .fah {
   cursor: pointer;
   color: #03a0ff;
 }
-
 
 .city-date {
   display: flex;
@@ -110,7 +109,7 @@ body {
 
 .weather-icon {
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 24px;
@@ -119,74 +118,72 @@ body {
   padding: 16px 16px;
 }
 
-
-
 .icon-desc {
   color: #03a0ff;
   font-size: 14px;
+  font-weight: 500;
+  
 }
 
 .weather-details {
-    padding: 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    color: #9e9ea7;
+  padding: 14px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  color: #9e9ea7;
 }
 
 .weather-form {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 input {
-    width: 100%;
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid #03a0ff;
-    outline: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: #03a0ff;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #03a0ff;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #03a0ff;
 }
 
-
-
 button {
-    padding: 4px 14px;
-    font-size: 12px;
-    outline: none;
-    color: white;
-    background: #03a0ff;
-    border: none;
-    border-radius: 4px;
-    transition: all 0.5s ease;
-    cursor: pointer;
+  padding: 4px 14px;
+  font-size: 12px;
+  outline: none;
+  color: white;
+  background: #03a0ff;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 button:hover {
-    color: #03a0ff;
-    background: white;
-    border: 1px solid #03a0ff;
+  color: #03a0ff;
+  background: white;
+  border: 1px solid #03a0ff;
 }
 
-.details-heading {   
-    font-size: 18px;
-    font-weight: 700;
-    margin: 26px 0 16px 0;
+.details-heading {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 26px 0 16px 0;
 }
 
 .weather-search-details {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .weather-stats-details {
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .weather-status-data {
@@ -194,4 +191,21 @@ button:hover {
 }
 
 
+.source-code-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px;
+  transition: all 0.4s ease-in-out;
+}
 
+.source-code-link:hover {
+  color: #03a0ff;
+  font-weight: 600;
+}
+
+.name {
+  font-family: "Ultra";
+  font-size: 14px;
+  color: #03a0ff;
+}
